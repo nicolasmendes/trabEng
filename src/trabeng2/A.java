@@ -60,13 +60,13 @@ public class A {
         this.A2 = A2;
     }
 
-    public static float somar(int a, float b) {
+    public static float soma(int a, float b) {
         return a + b;
     }
 
     public void main(String args[]) {
         A1 = 2;
         A2 = 3;
-        float result = somar(A1, A2);
+        float result = soma(A1, A2);
     }
 }
